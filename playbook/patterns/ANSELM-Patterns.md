@@ -126,6 +126,42 @@ Every time you make a decision, immediately create a record:
 
 ---
 
+### Pattern 6: Day-Zero Agreement Layer
+
+**Context:** Starting an engagement with a messy knowledge base — synonyms,
+homonyms, and the same term meaning different things in different silos
+
+**Problem:** The ecosystem is noisy, but building a full domain ontology up
+front freezes distinctions made at the moment of maximum ignorance — and rots
+
+**Solution:**
+
+```text
+On day zero, co-create with AI the smallest agreement layer:
+1. Controlled terms with aliases (one table, one afternoon)
+2. Cell types (need, function, component, decision, constraint, interface)
+3. Commitment relation types + the deterministic oracle that checks them
+
+Found the CONTRACT, not the MODEL. Everything descriptive (cells,
+relations, domain semantics) is derived from conversation, curated,
+and verified — never authored up front.
+```
+
+**Consumer test:** every founding element must name the act that uses it
+(alias checking, schema validation, the seam gate). "Sanitization" counts as
+a consumer only for elements sanitization actually consumes.
+
+**Throw-away test:** any founding element must be small enough to discard in
+an afternoon.
+
+**Consequences:**
+
+- ✅ Cheap, corrigible, high leverage for AI coherence
+- ✅ Sanitization becomes a continuous byproduct of use, not a phase
+- ⚠️ Will not satisfy anyone expecting an "enterprise ontology" deliverable — by design
+
+---
+
 ## Part 2: Anti-Patterns (Avoid This)
 
 ### Anti-Pattern 1: Diagram-First
@@ -217,6 +253,27 @@ Every time you make a decision, immediately create a record:
 
 ---
 
+### Anti-Pattern 6: Founding Ontology
+
+**Symptom:** Before any design reasoning, the team (or consultant) builds a
+domain ontology — classes, hierarchy, is-a/part-of — as a precondition for
+starting
+
+**Why it's bad:**
+
+- Authored at maximum ignorance; freezes wrong distinctions
+- The most expensive formalism with the fewest known consumers
+- Becomes an entry ticket and a gate review in new clothes
+- Rots fastest of all artifacts, because nothing at day zero is grounded in the work
+
+**What to do instead:**
+
+- Day-Zero Agreement Layer (contract, not model)
+- Derive structure from conversations; commit only what has a consumer
+- Let the oracle + steward sanitize continuously
+
+---
+
 ## Part 3: Smells (Warning Signs)
 
 ### Smell 1: Diagram Obsession
@@ -278,11 +335,13 @@ Every time you make a decision, immediately create a record:
 | **Pattern** | Devil's Advocate | Challenge assumptions |
 | **Pattern** | Progressive Disclosure | Respect audience |
 | **Pattern** | Capture-on-Decision | Continuous coherence |
+| **Pattern** | Day-Zero Agreement Layer | Contract over model |
 | **Anti-Pattern** | Diagram-First | Disposable views |
 | **Anti-Pattern** | Blind Trust | AI as co-pilot |
 | **Anti-Pattern** | Infinite Session | Context management |
 | **Anti-Pattern** | Perfect Draft | Iterative process |
 | **Anti-Pattern** | Solo Knowledge | Open ecosystem |
+| **Anti-Pattern** | Founding Ontology | Derive, don't found |
 
 ---
 

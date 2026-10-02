@@ -323,6 +323,7 @@ Templates are available in the [templates/](templates/) directory:
 | [session-log.md](templates/session-log.md) | Session summary | End of each session |
 | [project-canvas.md](templates/project-canvas.md) | One-page overview | Project kickoff |
 | [context-transfer.md](templates/context-transfer.md) | Handoff document | New session / new person |
+| [day-zero-agreement-layer.md](templates/day-zero-agreement-layer.md) | Founding contract | Engagement day zero |
 
 ---
 
